@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Сайт школы-гимназии №6</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="./src/assets/images/favicon_six.png">
+    
+    <link rel="stylesheet" type="text/css" href="./src/assets/styles/main.css">
+
+    <link rel="stylesheet" type="text/css" href="./src/assets/plugins/slick_slider/slick.css">
+    <link rel="stylesheet" type="text/css" href="./src/assets/plugins/slick_slider/MainPage/slick-theme.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="/dist/build.js"></script>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./src/assets/plugins/slick_slider/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.slider_main_div').slick({
+          autoplay: true,
+          autoplaySpeed: 3000,
+          dots: true,
+          arrows: false
+        });
+      });
+    </script>
+
+    <div id="to_top_button"><img src="./src/assets/plugins/to_top_button/to_up_button.png" width="50px"></div>
+	  <script type="text/javascript" src="./src/assets/plugins/to_top_button/to_top_button.js"></script>
+  </body>
+</html>
