@@ -11,7 +11,7 @@ import TimetableSection from './components/sections/TimetableSection.vue'
 import GallerySection from './components/sections/GallerySection.vue'
 import SchoolCollectiveSection from './components/sections/SchoolCollectiveSection.vue'
 import ChildrenAndParents from './components/sections/ChildrenAndParentsSection.vue'
-import ProudSection from './components/sections/ProudSection.vue'
+import PrideSection from './components/sections/PrideSection.vue'
 
 const routes = [
   {path: '/', component: MainSection},
@@ -20,7 +20,7 @@ const routes = [
   {path: '/gallery', component: GallerySection},
   {path: '/collective', component: SchoolCollectiveSection},
   {path: '/children-and-parents', component: ChildrenAndParents},
-  {path: '/proud', component: ProudSection},
+  {path: '/pride', component: PrideSection},
 ]
 
 const router = new VueRouter({
