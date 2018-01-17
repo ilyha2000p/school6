@@ -13,7 +13,7 @@
 				<div class="sections">ФОТОГАЛЕРЕЯ</div>
 			</form>
 
-			<div class="sections" style="padding-top: 5px;">ШКОЛЬНЫЙ КОЛЛЕКТИВ</div>
+			<router-link to="/collective"><div class="sections" style="padding-top: 5px;">ШКОЛЬНЫЙ КОЛЛЕКТИВ</div></router-link>
 
 			<router-link to="/children-and-parents"><div class="sections" style="padding-top: 5px;">ДЕТЯМ И <br> РОДИТЕЛЯМ</div></router-link>
 
